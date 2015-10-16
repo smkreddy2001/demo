@@ -5,4 +5,10 @@ public class JenkinsIntegration {
 		System.out.println("received : " + helloString);
 		return "Demo " + helloString;
 	}
+	public String sayHello() {
+		String helloString = "hello";
+		System.out.println(" Saying : "+ helloString);
+		return helloString;
+	}
+
 }
